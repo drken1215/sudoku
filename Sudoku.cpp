@@ -3,7 +3,6 @@
 #include <set>
 #include <string>
 
-
 // 盤面を二次元ベクトルで表す
 using Field = std::vector<std::vector<int>>;
 
@@ -67,7 +66,6 @@ class Sudoku {
         }
     }
 };
-
 
 // 空きマスのうち、選択肢が最も少ないマスを探す
 bool Sudoku::find_empty(int &x, int &y) {
@@ -144,7 +142,6 @@ void Sudoku::reset(int x, int y) {
     // 数値を除去する
     field[x][y] = -1;
 }
-
 
 // 一意に決まるマスを埋めていく
 void Sudoku::process() {
