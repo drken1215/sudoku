@@ -8,7 +8,7 @@
 
 <img src=https://github.com/drken1215/sudoku/blob/master/sudoku_example.png width=500mm>
 
-(数独の問題例と、その解答)
+図：数独の問題例  ( https://en.wikipedia.org/wiki/Sudoku ) と、その解答
 
 　
 
